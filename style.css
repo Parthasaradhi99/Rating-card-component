@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@0;1&display=swap');
+
+*{
+    box-sizing : border-box;
+    margin: 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card{
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    margin : 30vh auto;
+    width : 30vw;
+    color: hsl(217, 12%, 63%);
+}
+
+.card h1{
+    color: white;
+    font-size: 1.8rem;
+    margin: 20px 20px;
+}
+
+.card p{
+    margin : 10px 20px;
+    font-size: 1rem;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin : 20px auto;
+}
+
+.card .rating a{
+    background-color: hsl(216, 12%, 54%);
+    color : white;
+    justify-content: space-around;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    margin: 20px 18px;
+    cursor: pointer;
+}
+
+/* .rating a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+} */
+
+.card img{
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+
+button{
+    background-color: hsl(25, 97%, 53%);
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.rating a:active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rating a:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+button:hover{
+    background-color : white;
+    color : hsl(25, 97%, 53%);
+}
+
+.thanks img{
+    width : 200px;
+    border-radius: 0;
+    margin : 10px auto;
+}
+
+.thanks img+p{
+    padding: 10px 10px;
+    border-radius: 15px;
+    background-color: hsl(216, 12%, 8%);
+    color : hsl(25, 97%, 53%);
+    font-size: 1rem;
+}
+.thanks h1{
+    font-size: 1.5rem;
+}
+.thanks p{
+    margin : 20px auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
